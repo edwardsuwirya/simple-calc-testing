@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/edwardsuwirya/calcTesting/model"
 	"github.com/edwardsuwirya/calcTesting/service"
-	"log"
+	"github.com/edwardsuwirya/calcTesting/view"
 )
 
 func main() {
@@ -11,6 +11,6 @@ func main() {
 		Num1: 1,
 		Num2: 2,
 	}
-	additionResult := service.NewAdditionService(c).Result()
-	log.Print(additionResult)
+	additionService := service.NewAdditionService(c)
+	view.NewConsoleView(additionService).ShowResult()
 }
