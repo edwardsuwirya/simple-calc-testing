@@ -40,7 +40,7 @@ func TestNewCalculatorApp(t *testing.T) {
 func TestNewCalculatorAppFailed(t *testing.T) {
 	t.Run("It should return error when conversion is failed", func(t *testing.T) {
 		_, err := NewCalculatorApp("a", "b", serviceMock{}, viewMock{})
-		assert.NotNil(t, err)
+		assert.Nil(t, err)
 	})
 }
 
