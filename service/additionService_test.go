@@ -17,14 +17,14 @@ func TestNewAdditionService(t *testing.T) {
 	})
 }
 
-type modelCalculatorMock struct {
+type modelCalculatorTestTable struct {
 	calculator     model.Calculator
 	expectedResult float64
 }
 
 func TestAdditionService_Result(t *testing.T) {
 	//Test Table
-	tests := []modelCalculatorMock{
+	tests := []modelCalculatorTestTable{
 		{
 			calculator: model.Calculator{
 				Num1: 1,

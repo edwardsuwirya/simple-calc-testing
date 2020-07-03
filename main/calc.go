@@ -39,6 +39,11 @@ func main() {
 
 	app, err := NewCalculatorApp(os.Args[1], os.Args[2], additionService, view)
 
+	//defer func() {
+	//	if e := recover(); e != nil {
+	//		fmt.Println("Can not run")
+	//	}
+	//}()
 	if err != nil {
 		panic("Failed to run")
 	}

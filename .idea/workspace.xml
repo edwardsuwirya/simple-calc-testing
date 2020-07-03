@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6629a8e-3b6f-418f-8e86-5fe833414ca0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/calc_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/calc.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/calc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/calculatorService_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/calculatorService_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/calculatorView_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/view/calculatorView_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/calc_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/calc_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/additionService.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/additionService.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/calculatorService_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/additionService_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/calculatorView_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/view/consoleView_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

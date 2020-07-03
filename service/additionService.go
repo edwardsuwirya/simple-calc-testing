@@ -13,6 +13,10 @@ func NewAdditionService() ICalculatorService {
 	return &additionService{calculator: model}
 }
 
+func NewAdditionServiceWithModel(model model.Calculator) ICalculatorService {
+	return &additionService{calculator: model}
+}
+
 func (as *additionService) SetNumber(calculator model.Calculator) ICalculatorService {
 	as.calculator = calculator
 	return as

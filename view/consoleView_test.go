@@ -19,9 +19,16 @@ func (s serviceMock) SetNumber(calculator model.Calculator) service.ICalculatorS
 func TestNewConsoleView(t *testing.T) {
 	t.Run("It should return Console View", func(t *testing.T) {
 		consoleView := NewConsoleView()
-		consoleView.SetService(serviceMock{})
-
 		assert.NotNil(t, consoleView)
+	})
+}
+
+func TestConsoleView_SetService(t *testing.T) {
+	t.Run("It should set service properly", func(t *testing.T) {
+		view := NewConsoleView()
+		view.SetService(serviceMock{})
+		assert.NotNil(t, view.(*consoleView).calculatorService)
+		assert.Equal(t, view.(*consoleView).calculatorService.Result(), float64(10))
 	})
 }
 
