@@ -1,6 +1,9 @@
 package view
 
-import "testing"
+import (
+	"github.com/stretchr/testify/assert"
+	"testing"
+)
 
 type serviceMock struct{}
 
@@ -12,9 +15,7 @@ func TestNewConsoleView(t *testing.T) {
 	t.Run("It should return Console View", func(t *testing.T) {
 		consoleView := NewConsoleView(serviceMock{})
 
-		if consoleView == nil {
-			t.Error("Can not be nil")
-		}
+		assert.NotNil(t, consoleView)
 	})
 }
 
@@ -23,12 +24,7 @@ func TestConsoleView_ShowResult(t *testing.T) {
 		consoleView := NewConsoleView(serviceMock{})
 		res, err := consoleView.ShowResult()
 
-		if res != 10 {
-			t.Error("Result is wrong")
-		}
-
-		if err != nil {
-			t.Error("error is occured")
-		}
+		assert.Equal(t, 10, res)
+		assert.NotNil(t, err)
 	})
 }

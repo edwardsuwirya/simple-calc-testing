@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6629a8e-3b6f-418f-8e86-5fe833414ca0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/calculatorService_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/calculatorView.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/calculatorView_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/consoleView.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/substractionService.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/calc.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/calc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/additionService.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/additionService.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/calculatorService.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/calculatorService.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/calculatorService_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/calculatorService_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/calculatorView.go" beforeDir="false" afterPath="$PROJECT_DIR$/view/calculatorView.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/calculatorView_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/view/calculatorView_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/consoleView.go" beforeDir="false" afterPath="$PROJECT_DIR$/view/consoleView.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +28,11 @@
   </component>
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GoLibraries">
@@ -41,6 +49,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -62,7 +71,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
