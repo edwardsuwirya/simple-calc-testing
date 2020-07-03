@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6629a8e-3b6f-418f-8e86-5fe833414ca0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/service/substractionService.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/calc_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/calc.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/calc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/additionService.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/additionService.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/calculatorService.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/calculatorService.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/calculatorService_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/calculatorService_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/calculatorView.go" beforeDir="false" afterPath="$PROJECT_DIR$/view/calculatorView.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/calculatorView_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/view/calculatorView_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/consoleView.go" beforeDir="false" afterPath="$PROJECT_DIR$/view/consoleView.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +38,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
@@ -78,6 +75,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactoring calculator service &amp; view" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring calculator service &amp; view" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

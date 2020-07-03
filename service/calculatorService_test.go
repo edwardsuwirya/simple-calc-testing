@@ -10,7 +10,8 @@ func TestNewAdditionService(t *testing.T) {
 	t.Run("It should return Calculator service", func(t *testing.T) {
 		modelMock := model.Calculator{}
 
-		calculatorService := NewAdditionService(modelMock)
+		calculatorService := NewAdditionService()
+		calculatorService.SetNumber(modelMock)
 
 		assert.NotNil(t, calculatorService)
 	})
@@ -56,7 +57,8 @@ func TestAdditionService_Result(t *testing.T) {
 	}
 	for _, test := range tests {
 		t.Run("It should return addition result", func(t *testing.T) {
-			calculatorService := NewAdditionService(test.calculator)
+			calculatorService := NewAdditionService()
+			calculatorService.SetNumber(test.calculator)
 
 			expected := test.expectedResult
 			actual := calculatorService.Result()
@@ -70,7 +72,8 @@ func TestAdditionServiceWithoutNumber_Result(t *testing.T) {
 	t.Run("It should return 0 when no nums provided", func(t *testing.T) {
 		modelMock := model.Calculator{}
 
-		calculatorService := NewAdditionService(modelMock)
+		calculatorService := NewAdditionService()
+		calculatorService.SetNumber(modelMock)
 
 		expected := float64(0)
 		actual := calculatorService.Result()

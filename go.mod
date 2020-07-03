@@ -2,4 +2,4 @@ module github.com/edwardsuwirya/calcTesting
 
 go 1.14
 
-require github.com/stretchr/testify v1.6.1 // indirect
+require github.com/stretchr/testify v1.6.1
